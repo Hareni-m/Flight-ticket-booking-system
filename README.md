@@ -28,7 +28,7 @@ void main()
 	{
 		
 		printf("\n\n\t\t ********************************************************************");
-		printf("\n\t\t                   welcome to Sharath's airline system                   ");
+		printf("\n\t\t                   welcome to airline system                   ");
 		printf("\n\t\t   *******************************************************************");
 		printf("\n\n\n\t\t Please enter your choice from below (1-4):");
 		printf("\n\n\t\t 1. Reservation");
@@ -67,7 +67,7 @@ void main()
 		getch();
 	} while (choice != 4);
 }
-// ************************GOOD LUCK MUFTI*****************************
+
 void details()
 {
 	printf("\n\t Enter your passport number:");
@@ -81,7 +81,7 @@ void details()
 }
 
 
-// ************************************GOOD LUCK MUFTI************************************
+
 void details();
 
 void reserve(int x)
@@ -118,7 +118,7 @@ void reserve(int x)
 		return;
 	}
 } 
-// ************************GOOD LUCK MUFTI********************************
+
 
 
 void savefile()
@@ -143,7 +143,6 @@ void savefile()
 	printf("\n\n\t Details have been saved to a file (mufti records)");
 	fclose(fpointer);
 }
-//********************************GOOD LUCK MUFTI***************************************
 
 void display()
 {
@@ -160,7 +159,7 @@ void display()
 	}
 
 }
-//*****************************GOOD LUCK MUFTI*************************************
+
 
 void cancel()
 {
